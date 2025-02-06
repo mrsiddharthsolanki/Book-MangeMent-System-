@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo-contanier">
+            <div class="logo">
+                <img src="Group.svg" alt="">
+            </div>
+            <div class="logo-text">
+                <p>Book <span>Library</span></p>
+            </div>
+        </div>
+
+        <div class="menu-contanier">
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="./book/book.html">Books</a></li>
+                <li><a href="./about/about.html">About</a></li>
+                <li><a href="./help/help.html">Help</a></li>
+            </ul>
+        </div>
+        <div class="placeholder">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="login-btn">
+            <button>Login</button>
+        </div>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-img-text">
+            <h1>Book <span>Library</span></h1>
+            <p>Read the best books on the planet</p>
+        </div>
+        <div class="hero-img">
+            <img src="./Bibliophile-rafiki (1).svg" alt="">
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="hero-section-2">
+        <h2>4 life-changing books</h2>
+        <div class="book-box">
+            <div class="img-box">
+                <img src="https://patrickmabilog.com/wp-content/uploads/2023/12/The-5AM-Club-Summary-Cover-scaled.jpg" alt="">
+            </div>
+            <div class="text-box">
+                <div class="text-box-title">
+                    <h2>The 5 AM Club" by Robin Sharma</h2>
+                </div>
+                <button>DownLode</button>
+                <div class="text-box-pera">
+                    <p style="color: chocolate;">Why Read It?</p>
+                    <ul>
+                        <li><p>Teaches how waking up early (5 AM) can transform your productivity, focus, and success.</p></li>
+                        <li><p>A mix of storytelling and science-backed techniques for self-improvement.</p></li>
+                        <li><p>Great for people who want to increase discipline and energy levels.</p></li>
+                    </ul>
+                </div>
+                <p>Own your morning, own your day" – Start early for success.</p>
+            </div>
+        </div>
+
+        <div class="book-box">
+            <div class="text-box">
+                <div class="text-box-title">
+                    <h2>The Psychology of Money" by Morgan Housel</h2>
+                </div>
+                <button>DownLode</button>
+                <div class="text-box-pera">
+                    <p>Why Read It?</p>
+                    <ul>
+                        <li><p>This book changes how you think about wealth, spending, and saving.</p></li>
+                        <li><p>Focuses on behavioral finance, showing that how we think about money matters more than math.</p></li>
+                        <li><p>Helps you avoid financial mistakes and build long-term wealth.</p></li>
+                        
+                    </ul>
+                </div>
+                <p>Wealth is what you don’t see – Saving is more powerful than showing off.</p>
+            </div>
+            <div class="img-box">
+                <img src="https://kitabbazaar.pk/cdn/shop/files/5BB3D31C-0E3A-4ECF-B6D9-662355770B86.png?v=1719850287" alt="">
+            </div>
+        </div>
+
+        <div class="book-box">
+            <div class="img-box">
+                <img src="https://images.squarespace-cdn.com/content/v1/58b045e1725e25829e8a701c/1550878312553-EZJM6RAT86BETQ3K61ST/deep-work-cal-newport-cover.jpg" alt="">
+            </div>
+            <div class="text-box">
+                <div class="text-box-title">
+                    <h2>Deep Work" by Cal Newport</h2>
+                </div>
+                <button>DownLode</button>
+                <div class="text-box-pera">
+                    <p>Why Read It?</p>
+                    <ul>
+                        <li><p>Teaches how to focus deeply in a world full of distractions.</p></li>
+                        <li><p>Shows why deep work is a superpower for success in careers and personal projects.</p></li>
+                        <li><p>Helps improve concentration, efficiency, and creativity.</p></li>
+
+                    </ul>
+                </div>
+                <p>Shallow work vs. Deep work – Avoid multitasking and work with focus.</p>
+            </div>
+        </div>
+
+        <div class="book-box">
+            <div class="text-box">
+                <div class="text-box-title">
+                    <h2>Atomic Habits" by James Clear</h2>
+                </div>
+                <button>DownLode</button>
+                <div class="text-box-pera">
+                    <p>Why Read It?</p>
+                    <ul>
+                        <li><p>This book teaches how tiny habits can lead to big changes in life.</p></li>
+                        <li><p>Helps you build good habits and break bad ones using psychology-based techniques.</p></li>
+                        <li><p>Perfect for anyone who struggles with self-discipline and wants to improve daily life.</p></li>
+                        
+                    </ul>
+                </div>
+                <p>Small improvements lead to huge results over time.</p>
+            </div>  
+            <div class="img-box">
+                <img src="https://www.heinzmarketing.com/wp-content/uploads/2023/05/HM-Blog-Atomic-Habits.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#">Manage Books</a>
+                <a href="#">Help</a>
+                <a href="#">Contact</a>
+            </div>
+    
+            <div class="footer-social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+    
+            <div class="footer-download">
+                <a href="#">📥 Download Our Website</a>
+            </div>
+    
+            <p class="footer-text">© 2025 Book Library. All rights reserved.</p>
+        </div>
+    </footer>
+    
+        <script src="script.js"></script>
+</body>
+</html>

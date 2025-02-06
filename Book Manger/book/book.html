@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library System: Books</title>
+    <link rel="stylesheet" href="./book.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-contanier">
+            <div class="logo">
+                <img src="../Group.svg" alt="Home">
+            </div>
+            <div class="logo-text">
+                <p>Book <span>Library</span></p>
+            </div>
+        </div>
+
+        <div class="menu-contanier">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./book/book.html">Books</a></li>
+                <li><a href="../about/about.html">About</a></li>
+                <li><a href="../help/help.html">Help</a></li>
+            </ul>
+        </div>
+        <div class="placeholder">
+            <input type="text" id="searchBook" placeholder="Search">
+        </div>
+        <div class="login-btn">
+            <button>Login</button>
+        </div>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-container">
+            <div class="hero-box">
+                <h1>The 5 AM Club"</h1>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGhY6dFjaJjKf6kLpEb4MLlTqhLCeJSjmx8A&s" alt="">
+                <button>Get Started</button>
+            </div>
+            <div class="hero-box">
+                <h1>Deep Work</h1>
+                <img src="https://images.squarespace-cdn.com/content/v1/552d143de4b09906febc898c/1506290492193-0OGUAM0RLT64YF41HKRR/deep_work.jpg" alt="">
+                <button>Get Started</button>
+            </div>
+            <div class="hero-box">
+                <h1>The Psychology of Money</h1>
+                <img src="https://rukminim1.flixcart.com/image/300/300/xif0q/book/g/h/s/the-psychology-of-money-original-imah3ucqzhfxbnsq.jpeg" alt="">
+                <button>Get Started</button>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="contaier">
+        <h1>Book MangeMent System</h1>
+        <form  id="bookForm">
+            <input type="text" id="bookName" placeholder="Book Name">
+            <input type="text" id="author" placeholder="Author">
+
+            <select  id="bookGenre">
+                <option value="">Select Genre</option>
+                <option value="Fiction">Fiction</option>
+                <option value="Non-Fiction">Non-Fiction</option>
+                <option value="Biologey">Biologey</option>
+                <option value="Sceince">Sceince</option>
+                <option value="MatheMathic">MatheMathic</option>
+            </select>
+
+            <button id="bookAdd" type="submit">Submit</button>
+        </form>
+        <div id="bookList">
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#">Manage Books</a>
+                <a href="#">Help</a>
+                <a href="#">Contact</a>
+            </div>
+    
+            <div class="footer-social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+    
+            <div class="footer-download">
+                <a href="#">📥 Download Our Website</a>
+            </div>
+    
+            <p class="footer-text">© 2025 Book Library. All rights reserved.</p>
+        </div>
+    </footer>
+        <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library System: Help</title>
+    <link rel="stylesheet" href="./help.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-contanier">
+            <div class="logo">
+                <img src="Group.svg" alt="">
+            </div>
+            <div class="logo-text">
+                <p>Book <span>Library</span></p>
+            </div>
+        </div>
+
+        <div class="menu-contanier">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="../book/book.html">Books</a></li>
+                <li><a href="../about/about.html">About</a></li>
+                <li><a href="./help.html">Help</a></li>
+            </ul>
+        </div>
+        <div class="placeholder">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="login-btn">
+            <button>Login</button>
+        </div>
+    </header>
+
+    <div class="help-container">
+        <div class="help-header">
+            <h2>How We Can Help?</h2>
+            <p>Find answers to common questions or contact our support team.</p>
+        </div>
+
+        <div class="help-input">
+            <input type="text" placeholder="Search for help" id="helpSearch">
+        </div>
+
+        <div class="help-catagories">
+            <div class="help-cat-box" onclick="showFaqs('account')">
+                <h3>Account & Login</h3>
+                <p>Account creation, login issues, and password reset</p>
+            </div>
+            <div class="help-cat-box" onclick="showFaqs('books')">
+                <h3>Books & Reading</h3>
+                <p>Accessing books, download issues, and reading tips</p>
+            </div>
+            <div class="help-cat-box" onclick="showFaqs('technical')">
+                <h3>Technical Support</h3>
+                <p>Website issues, compatibility, and troubleshooting</p>
+            </div>
+            <div class="help-cat-box" onclick="showFaqs('membership')">
+                <h3>Membership</h3>
+                <p>Membership plans, benefits, and billing</p>
+            </div>
+        </div>
+
+        <div class="faq-section" id="faqSection">
+
+        </div>
+
+        <div class="contact-section">
+            <h2>Still need help?</h2>
+            <p>Our support team is here to assist you</p>
+            <button onclick="contactSupport()">Contact Support</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#">Manage Books</a>
+                <a href="#">Help</a>
+                <a href="#">Contact</a>
+            </div>
+    
+            <div class="footer-social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+    
+            <div class="footer-download">
+                <a href="#">📥 Download Our Website</a>
+            </div>
+    
+            <p class="footer-text">© 2025 Book Library. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="help.js"></script>
+</body>
+</html>
